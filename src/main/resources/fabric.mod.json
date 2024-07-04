@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "betterchat",
+  "version": "${version}",
+  "name": "Better Chat",
+  "description": "Makes chat smoother and gives it a clear background..",
+  "authors": [
+    "LlamaLad7"
+  ],
+  "environment": "client",
+  "mixins": [
+    "betterchat.mixins.json"
+  ],
+  "entrypoints": {
+    "client": [
+      "com.llamalad7.betterchat.BetterChat"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.14.12",
+    "legacy-fabric-api": "*",
+    "minecraft": "1.8.9"
+  }
+}
